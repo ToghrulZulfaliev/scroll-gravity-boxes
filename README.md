@@ -1,16 +1,33 @@
-# React + Vite
+# Scroll Gravity Boxes (Framer Motion)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scroll-responsive UI animation built with React and Framer Motion.
 
-Currently, two official plugins are available:
+Description
+This project demonstrates how UI elements can dynamically respond to scroll speed and direction.
+As the user scrolls faster, the boxes react with stronger motion, creating a gravity-like,
+physics-inspired interaction commonly used in modern landing pages and portfolios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Key Concepts
+- Scroll velocity calculation using delta values (dy / dt)
+- Direction-based animation logic
+- Spring-based animations with Framer Motion
+- requestAnimationFrame for performance optimization
+- GPU-accelerated transforms (translate & rotate)
 
-## React Compiler
+ Tech Stack
+- React (Functional Components)
+- Framer Motion
+- Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Learning Outcome
+This project helped me understand how to convert user scroll input into smooth,
+interactive UI animations while keeping performance stable.
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
+👉 https://YOUR-VERCEL-LINK.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+👨‍💻 Author  
+**Toghrul Zulfaliev**  
+Frontend Developer
