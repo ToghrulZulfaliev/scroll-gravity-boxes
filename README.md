@@ -24,7 +24,7 @@ This project helped me understand how to convert user scroll input into smooth,
 interactive UI animations while keeping performance stable.
 
 ## 🌐 Live Demo
-👉 https://YOUR-VERCEL-LINK.vercel.app
+👉 https://scroll-gravity-boxes.vercel.app/
 
 ---
 
